@@ -5,6 +5,11 @@ import { ThemeProvider } from "@/components/theme-provider";
 export const metadata: Metadata = {
   title: "Arif Kurniawan",
   description: "Arif Kurniawan's personal website, showcasing his portfolio and skills as a fullstack web developer.",
+  icons: [{
+    rel: "icon",
+    type: "image/svg+xml",
+    url: "/favicon.jpg"
+  }],
 };
 
 export default function RootLayout({
